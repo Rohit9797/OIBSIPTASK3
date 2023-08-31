@@ -1,0 +1,45 @@
+/* .flex {
+    display: flex;
+} */
+
+
+.btn {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: rgb(180, 92, 4);
+    color:rgb(42, 24, 24);
+    margin-top:auto;
+    border-radius: 21px;
+}
+
+.btn-primary:hover {
+    background:grey;
+    border-color:black;
+    color: black;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: rgb(42, 24, 24);
+    border-color:black;
+    border-radius: 10px;
+}
+
+.btn-secondary:hover {
+    background: gray;
+    color: black;
+}
